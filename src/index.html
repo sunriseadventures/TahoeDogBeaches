@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tahoe Dog Beaches</title>
+  <meta name="description" content="Find dog-friendly beaches around Lake Tahoe, with leash rules, terrain, and local tips." />
+  <link rel="canonical" href="https://tahoedogbeaches.com/" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,600;0,9..40,700;1,9..40,400&family=Fraunces:opsz,wght@9..144,500;9..144,650&display=swap" rel="stylesheet" />
+  <link rel="preload" as="image" href="https://tahoedogbeaches.com/wp-content/uploads/2026/08/00000IMG_00000_BURST20210304121732371_COVER-scaled.jpg" />
+  <style>
+    body {
+      margin: 0;
+      background: #f4efe6;
+      color: #1b2836;
+      font-family: "DM Sans", sans-serif;
+      font-size: 17px;
+      line-height: 1.5;
+    }
+    .site-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+      width: min(1120px, calc(100% - 40px));
+      margin: 0 auto;
+      padding: 22px 0;
+    }
+    .site-title {
+      margin: 0;
+      font-family: Fraunces, serif;
+      font-size: 1.25rem;
+      font-weight: 650;
+      letter-spacing: -0.03em;
+    }
+    .site-title a { text-decoration: none; color: inherit; }
+    .site-nav { display: flex; flex-wrap: wrap; gap: 22px; font-size: 0.95rem; }
+    .site-nav a { text-decoration: none; color: inherit; }
+    .site-nav a[aria-current="page"] { text-decoration: underline; text-underline-offset: 0.25em; }
+    .site-nav a:focus-visible, .site-title a:focus-visible {
+      outline: 2px solid #1f5f86;
+      outline-offset: 3px;
+    }
+    @media (max-width: 900px) {
+      .site-header { flex-direction: column; align-items: flex-start; gap: 12px; }
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <p class="site-title"><a href="https://tahoedogbeaches.com/">Tahoe Dog Beaches</a></p>
+    <nav class="site-nav" aria-label="Menu">
+      <a href="https://tahoedogbeaches.com/?page_id=48">Map</a>
+      <a href="https://tahoedogbeaches.com/?page_id=71">Posts</a>
+      <a href="https://tahoedogbeaches.com/?page_id=13">Resources</a>
+      <a href="https://tahoedogbeaches.com/" aria-current="page">Welcome to Tahoe Dog Beaches</a>
+    </nav>
+  </header>
+  <main>
+    <!--WP-->
+<style>
+    :root {
+      --ink: #1b2836;
+      --muted: #4d5d6e;
+      --sand: #f4efe6;
+      --paper: #fffdf9;
+      --line: #e4d9c8;
+      --lake: #1f5f86;
+      --amber: #f0b429;
+      --amber-ink: #3d2e04;
+      --wrap: 1120px;
+      --gap: 24px;
+    }
+    html:has(.tdb) { overflow-x: clip; }
+    .tdb-break, .tdb-break * { box-sizing: border-box; }
+    .tdb-break a { color: inherit; }
+    body.page-id-9 h1.wp-block-post-title { display: none; }
+    .entry-content .tdb-break,
+    .wp-block-post-content .tdb-break {
+      width: 100vw;
+      position: relative;
+      left: 50%;
+      margin-left: -50vw;
+    }
+    .tdb {
+      width: min(var(--wrap), calc(100% - 40px));
+      margin: 0 auto 72px;
+    }
+    .tdb-hero {
+      position: relative;
+      min-height: 560px;
+      display: grid;
+      place-items: center;
+      padding: 72px 32px 110px;
+      text-align: center;
+      color: #fff;
+      overflow: hidden;
+      border-radius: 48px 48px 50% 50% / 48px 48px 140px 140px;
+    }
+    .tdb-hero img {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: 51% 28%;
+    }
+    .tdb-hero::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(180deg, rgba(16, 36, 52, 0.55), rgba(16, 36, 52, 0.12) 55%, rgba(16, 36, 52, 0.28));
+    }
+    .tdb-hero-copy { position: relative; z-index: 1; max-width: 760px; }
+    .tdb-welcome {
+      margin: 0 0 10px;
+      font-size: 0.95rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+    .tdb-kicker {
+      margin: 0 0 12px;
+      color: var(--amber);
+      font-family: Fraunces, serif;
+      font-size: clamp(2rem, 4vw, 3.4rem);
+      font-weight: 650;
+      letter-spacing: -0.03em;
+      line-height: 1.05;
+    }
+    .tdb-hero p { margin: 0 0 8px; font-size: 1.15rem; }
+    .tdb-button {
+      display: inline-block;
+      margin-top: 22px;
+      padding: 0.9rem 2.1rem;
+      border-radius: 999px;
+      background: var(--amber);
+      color: var(--amber-ink);
+      font-family: Fraunces, serif;
+      font-size: 1.15rem;
+      text-decoration: none;
+    }
+    .tdb-button:focus-visible, .tdb-filters input:focus-visible, .tdb-filters select:focus-visible {
+      outline: 2px solid var(--lake);
+      outline-offset: 3px;
+    }
+    .tdb-intro, .tdb-filters, .tdb-grid, .tdb-gallery { margin-top: 28px; }
+    .tdb-intro {
+      display: grid;
+      grid-template-columns: 1.2fr 1fr;
+      gap: var(--gap);
+      align-items: stretch;
+    }
+    .tdb-panel, .tdb-card, .tdb-note {
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: 28px;
+    }
+    .tdb-panel { padding: 32px; }
+    .tdb-panel h2, .tdb-section-title {
+      margin: 0 0 8px;
+      font-family: Fraunces, serif;
+      font-weight: 650;
+      letter-spacing: -0.03em;
+      line-height: 1.1;
+    }
+    .tdb-panel h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); }
+    .tdb-panel p, .tdb-note p { margin: 0; color: var(--muted); }
+    .tdb-note {
+      padding: 28px 32px;
+      border-left: 8px solid var(--amber);
+    }
+    .tdb-note h3 {
+      margin: 0 0 6px;
+      font-family: Fraunces, serif;
+      font-size: 1.25rem;
+    }
+    .tdb-section-title { font-size: 1.7rem; margin: 36px 0 0; }
+    .tdb-gallery {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: var(--gap);
+      align-items: center;
+    }
+    .tdb-gallery figure {
+      margin: 0;
+      height: 280px;
+      display: grid;
+      place-items: center;
+    }
+    .tdb-gallery img, .tdb-card-photo img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+    .shape { overflow: hidden; box-shadow: 0 16px 30px rgba(31, 48, 66, 0.16); }
+    .shape-circle { width: 220px; height: 220px; border-radius: 50%; }
+    .shape-arch { width: 190px; height: 250px; border-radius: 999px 999px 28px 28px; }
+    .shape-blob { width: 230px; height: 210px; border-radius: 62% 38% 58% 42% / 42% 62% 38% 58%; }
+    .shape-oval { width: 180px; height: 250px; border-radius: 50%; }
+    .shape-pebble { width: 210px; height: 180px; border-radius: 48% 52% 64% 36% / 42% 58% 42% 58%; }
+    .shape-leaf { width: 200px; height: 240px; border-radius: 72% 28% 64% 36% / 36% 64% 36% 64%; }
+    .tdb-filters, .tdb-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: var(--gap);
+      align-items: stretch;
+    }
+    .tdb-filters label {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      margin: 0;
+      padding: 18px;
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: 28px;
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+    .tdb-filters input, .tdb-filters select {
+      width: 100%;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      padding: 12px 16px;
+      font: inherit;
+      letter-spacing: 0;
+      text-transform: none;
+      color: var(--ink);
+      background: #fff;
+    }
+    .tdb-card {
+      display: flex;
+      flex-direction: column;
+      min-height: 100%;
+      overflow: hidden;
+    }
+    .tdb-card-photo {
+      height: 220px;
+      display: grid;
+      place-items: center;
+      background: #efe6d8;
+    }
+    .tdb-card-photo .shape-circle,
+    .tdb-card-photo .shape-blob,
+    .tdb-card-photo .shape-pebble { width: 150px; height: 150px; }
+    .tdb-card-photo .shape-arch,
+    .tdb-card-photo .shape-oval,
+    .tdb-card-photo .shape-leaf { width: 132px; height: 180px; }
+    .tdb-card-body { padding: 8px 22px 0; }
+    .tdb-pills { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px; }
+    .pill {
+      display: inline-block;
+      padding: 4px 10px;
+      border-radius: 999px;
+      font-size: 0.75rem;
+      font-weight: 700;
+      background: #efe6d8;
+      color: #3d4d5e;
+    }
+    .pill.off { background: #d9f3e4; color: #14633a; }
+    .pill.on { background: #d7ebf6; color: #14557a; }
+    .tdb-card h3 {
+      margin: 12px 0 4px;
+      font-family: Fraunces, serif;
+      font-size: clamp(1.15rem, 2vw, 1.35rem);
+      letter-spacing: -0.02em;
+    }
+    .terrain { margin: 0 0 8px; color: var(--muted); font-size: 0.82rem; }
+    .desc { margin: 0; color: var(--muted); font-size: 0.95rem; }
+    .tip {
+      margin-top: auto;
+      padding: 16px 22px 20px;
+      color: var(--muted);
+      font-size: 0.82rem;
+    }
+    .empty {
+      grid-column: 1 / -1;
+      margin: 0;
+      padding: 48px 16px;
+      text-align: center;
+      color: var(--muted);
+    }
+    @media (max-width: 900px) {
+      .tdb-intro, .tdb-filters { grid-template-columns: 1fr 1fr; }
+      .tdb-intro { grid-template-columns: 1fr; }
+      .tdb-hero { min-height: 480px; border-radius: 32px 32px 46% 46% / 32px 32px 90px 90px; }
+      .shape-circle { width: 150px; height: 150px; }
+      .shape-pebble { width: 160px; height: 140px; }
+      .shape-arch, .shape-oval, .shape-leaf { width: 120px; height: 168px; }
+      .tdb-card-photo .shape-circle,
+      .tdb-card-photo .shape-blob,
+      .tdb-card-photo .shape-pebble { width: 120px; height: 120px; }
+      .tdb-card-photo .shape-arch,
+      .tdb-card-photo .shape-oval,
+      .tdb-card-photo .shape-leaf { width: 108px; height: 150px; }
+      .tdb-gallery figure { height: 220px; }
+    }
+    @media (max-width: 640px) {
+      .tdb-filters, .tdb-grid, .tdb-gallery { grid-template-columns: 1fr; }
+      .tdb-gallery figure { height: 240px; }
+      .tdb-hero { min-height: 420px; padding: 48px 20px 80px; }
+    }
+  </style>
+
+    <div class="tdb-break"><div class="tdb">
+      <section class="tdb-hero" aria-label="Welcome">
+        <img src="https://tahoedogbeaches.com/wp-content/uploads/2026/08/00000IMG_00000_BURST20210304121732371_COVER-scaled.jpg" alt="Dog on Maggies Peak" />
+        <div class="tdb-hero-copy">
+          <p class="tdb-welcome">Welcome to Tahoe Dog Beaches</p>
+          <h1 class="tdb-kicker">Fun in the Tahoe Sun for the WHOLE family</h1>
+          <p>Easily plan your beach day out with TahoeDogBeaches.com</p>
+          <a class="tdb-button" href="https://tahoedogbeaches.com/?page_id=48">Map</a>
+        </div>
+      </section>
+
+      <section class="tdb-intro">
+        <div class="tdb-panel">
+          <h2>Tahoe Paws &amp; Shores 🐾</h2>
+          <p>Find exactly where your pup can splash, dig, and swim legally around Lake Tahoe.</p>
+        </div>
+        <aside class="tdb-note">
+          <h3>Know Before You Go</h3>
+          <p>Tahoe fines for off-leash dogs on standard public beaches can be steep. Always keep your dog on a 6-foot leash unless you are explicitly inside a designated off-leash zone, and pack out all waste!</p>
+        </aside>
+      </section>
+
+      <h2 class="tdb-section-title">Around the lake</h2>
+      <div class="tdb-gallery" aria-label="Lake Tahoe photos">
+        <figure><div class="shape shape-circle"><img src="https://tahoedogbeaches.com/wp-content/uploads/2026/08/PXL_20240813_010905516.PORTRAIT-scaled.jpg" alt="Yellow Labrador sitting on the shore" style="object-position:center 20%" /></div></figure>
+        <figure><div class="shape shape-pebble"><img src="https://tahoedogbeaches.com/wp-content/uploads/2026/08/PXL_20220214_182936786-scaled.jpg" alt="Sunset over Lake Tahoe" style="object-position:center center" /></div></figure>
+        <figure><div class="shape shape-arch"><img src="https://tahoedogbeaches.com/wp-content/uploads/2026/08/IMG_20210405_134956-1-1-scaled.jpg" alt="Black and white dog on the shore" style="object-position:center 40%" /></div></figure>
+      </div>
+
+      <h2 class="tdb-section-title">Dog-friendly beaches</h2>
+      <div class="tdb-filters">
+        <label>Search Beaches
+          <input type="text" id="searchBar" placeholder="e.g., Kiva, Chimney..." />
+        </label>
+        <label>Filter by Region
+          <select id="regionFilter">
+            <option value="all">All Regions</option>
+            <option value="North Shore">North Shore</option>
+            <option value="South Shore">South Shore</option>
+            <option value="East Shore">East Shore (NV)</option>
+          </select>
+        </label>
+        <label>Leash Rule
+          <select id="leashFilter">
+            <option value="all">Any Rules</option>
+            <option value="Leash Required">Leash Required</option>
+            <option value="Off-Leash Allowed">Off-Leash Allowed</option>
+          </select>
+        </label>
+      </div>
+      <div class="tdb-grid" id="beachGrid">
+        <article class="tdb-card">
+          <div class="tdb-card-photo"><div class="shape shape-circle"><img src="https://tahoedogbeaches.com/wp-content/uploads/2026/08/IMG_20200718_202010-1-scaled.jpg" alt="Dog on a sandy Tahoe beach" style="object-position:center 30%" /></div></div>
+          <div class="tdb-card-body">
+            <div class="tdb-pills"><span class="pill">South Shore</span><span class="pill on">Leash Required</span></div>
+            <h3>Kiva Beach</h3>
+            <p class="terrain"><strong>Terrain:</strong> Sandy &amp; Pebbles</p>
+            <p class="desc">One of the most famous dog spots. Located near the Tallac Historic Site. Dogs are strictly allowed east of Tallac Point only (don't wander into the protected wetlands west of it!).</p>
+          </div>
+          <p class="tip"><strong>Local Tip:</strong> Parking is free but fills up incredibly fast on hot summer weekends.</p>
+        </article>
+        <article class="tdb-card">
+          <div class="tdb-card-photo"><div class="shape shape-pebble"><img src="https://tahoedogbeaches.com/wp-content/uploads/2026/08/PXL_20220417_233147100-scaled-e1785624488795.jpg" alt="Sunset over a Tahoe dock" style="object-position:center center" /></div></div>
+          <div class="tdb-card-body">
+            <div class="tdb-pills"><span class="pill">South Shore</span><span class="pill off">Off-Leash Allowed</span></div>
+            <h3>Regan Beach (Dog Area)</h3>
+            <p class="terrain"><strong>Terrain:</strong> Grassy &amp; Shallow Entry</p>
+            <p class="desc">South Tahoe's oldest beach has an enclosed, dedicated 'dog water park' on the far east end where well-behaved dogs can swim completely off-leash.</p>
+          </div>
+          <p class="tip"><strong>Local Tip:</strong> Perfect for senior or small dogs due to the very shallow, calm water.</p>
+        </article>
+        <article class="tdb-card">
+          <div class="tdb-card-photo"><div class="shape shape-arch"><img src="https://tahoedogbeaches.com/wp-content/uploads/2026/08/PXL_20220211_013622245-1-scaled.jpg" alt="Dog standing on the beach" style="object-position:center 25%" /></div></div>
+          <div class="tdb-card-body">
+            <div class="tdb-pills"><span class="pill">North Shore</span><span class="pill on">Leash Required</span></div>
+            <h3>Raccoon Street Dog Beach</h3>
+            <p class="terrain"><strong>Terrain:</strong> Rocky Shoreline</p>
+            <p class="desc">Located on the east end of Kings Beach State Recreation Area, just past the boat ramp. Placer County strictly bans dogs on the main sandy beach, so look for the signs.</p>
+          </div>
+          <p class="tip"><strong>Local Tip:</strong> Water shoes are highly recommended here due to the large, slick pebbles.</p>
+        </article>
+        <article class="tdb-card">
+          <div class="tdb-card-photo"><div class="shape shape-pebble"><img src="https://tahoedogbeaches.com/wp-content/uploads/2026/08/PXL_20220214_182940533-scaled.jpg" alt="Lake Tahoe shoreline at sunset" style="object-position:center center" /></div></div>
+          <div class="tdb-card-body">
+            <div class="tdb-pills"><span class="pill">North Shore</span><span class="pill on">Leash Required</span></div>
+            <h3>Carnelian West Beach</h3>
+            <p class="terrain"><strong>Terrain:</strong> Flat Pebbles / Stones</p>
+            <p class="desc">A spacious, wide pebble beach right next door to Gar Woods restaurant. Includes lakeside picnic benches, BBQs, and year-round accessible restrooms.</p>
+          </div>
+          <p class="tip"><strong>Local Tip:</strong> Great spot to grab lunch to-go and sit right at the water's edge with your pup.</p>
+        </article>
+        <article class="tdb-card">
+          <div class="tdb-card-photo"><div class="shape shape-oval"><img src="https://tahoedogbeaches.com/wp-content/uploads/2026/08/PXL_20211009_012119910-1-scaled.jpg" alt="Yellow Labrador on the Lake Tahoe shore" style="object-position:center 62%" /></div></div>
+          <div class="tdb-card-body">
+            <div class="tdb-pills"><span class="pill">East Shore</span><span class="pill on">Leash Required</span></div>
+            <h3>Chimney Beach</h3>
+            <p class="terrain"><strong>Terrain:</strong> Sand &amp; Massive Boulders</p>
+            <p class="desc">Located on National Forest land in Nevada. Named after the historic stone chimney remaining on the shore. It offers gorgeous turquoise alpine waters.</p>
+          </div>
+          <p class="tip"><strong>Local Tip:</strong> Requires a steep, roughly 1/2-mile hike down from the highway parking lot. Pack plenty of water!</p>
+        </article>
+        <article class="tdb-card">
+          <div class="tdb-card-photo"><div class="shape shape-leaf"><img src="https://tahoedogbeaches.com/wp-content/uploads/2026/08/PXL_20220504_005951125-scaled-e1785624506888.jpg" alt="Swimming at Lake Tahoe" style="object-position:center 30%" /></div></div>
+          <div class="tdb-card-body">
+            <div class="tdb-pills"><span class="pill">East Shore</span><span class="pill on">Leash Required</span></div>
+            <h3>Hidden Beach</h3>
+            <p class="terrain"><strong>Terrain:</strong> Sandy Pockets &amp; Granite Rocks</p>
+            <p class="desc">A stunning, secluded stretch just south of Incline Village along the East Shore Trail. Incredible crystal clear waters and deep swimming holes.</p>
+          </div>
+          <p class="tip"><strong>Local Tip:</strong> Accessible via the paved bike/walking trail. No immediate parking next to the sand.</p>
+        </article>
+      </div>
+    </div></div>
+    <script>
+      (function () {
+        const beachData = [
+          { name: "Kiva Beach", region: "South Shore", leash: "Leash Required", terrain: "Sandy & Pebbles", shape: "circle", pos: "center 30%", img: "https://tahoedogbeaches.com/wp-content/uploads/2026/08/IMG_20200718_202010-1-scaled.jpg", alt: "Dog on a sandy Tahoe beach", desc: "One of the most famous dog spots. Located near the Tallac Historic Site. Dogs are strictly allowed east of Tallac Point only (don't wander into the protected wetlands west of it!).", tip: "Parking is free but fills up incredibly fast on hot summer weekends." },
+          { name: "Regan Beach (Dog Area)", region: "South Shore", leash: "Off-Leash Allowed", terrain: "Grassy & Shallow Entry", shape: "pebble", pos: "center center", img: "https://tahoedogbeaches.com/wp-content/uploads/2026/08/PXL_20220417_233147100-scaled-e1785624488795.jpg", alt: "Sunset over a Tahoe dock", desc: "South Tahoe's oldest beach has an enclosed, dedicated 'dog water park' on the far east end where well-behaved dogs can swim completely off-leash.", tip: "Perfect for senior or small dogs due to the very shallow, calm water." },
+          { name: "Raccoon Street Dog Beach", region: "North Shore", leash: "Leash Required", terrain: "Rocky Shoreline", shape: "arch", pos: "center 25%", img: "https://tahoedogbeaches.com/wp-content/uploads/2026/08/PXL_20220211_013622245-1-scaled.jpg", alt: "Dog standing on the beach", desc: "Located on the east end of Kings Beach State Recreation Area, just past the boat ramp. Placer County strictly bans dogs on the main sandy beach, so look for the signs.", tip: "Water shoes are highly recommended here due to the large, slick pebbles." },
+          { name: "Carnelian West Beach", region: "North Shore", leash: "Leash Required", terrain: "Flat Pebbles / Stones", shape: "pebble", pos: "center center", img: "https://tahoedogbeaches.com/wp-content/uploads/2026/08/PXL_20220214_182940533-scaled.jpg", alt: "Lake Tahoe shoreline at sunset", desc: "A spacious, wide pebble beach right next door to Gar Woods restaurant. Includes lakeside picnic benches, BBQs, and year-round accessible restrooms.", tip: "Great spot to grab lunch to-go and sit right at the water's edge with your pup." },
+          { name: "Chimney Beach", region: "East Shore", leash: "Leash Required", terrain: "Sand & Massive Boulders", shape: "oval", pos: "center 62%", img: "https://tahoedogbeaches.com/wp-content/uploads/2026/08/PXL_20211009_012119910-1-scaled.jpg", alt: "Yellow Labrador on the Lake Tahoe shore", desc: "Located on National Forest land in Nevada. Named after the historic stone chimney remaining on the shore. It offers gorgeous turquoise alpine waters.", tip: "Requires a steep, roughly 1/2-mile hike down from the highway parking lot. Pack plenty of water!" },
+          { name: "Hidden Beach", region: "East Shore", leash: "Leash Required", terrain: "Sandy Pockets & Granite Rocks", shape: "leaf", pos: "center 30%", img: "https://tahoedogbeaches.com/wp-content/uploads/2026/08/PXL_20220504_005951125-scaled-e1785624506888.jpg", alt: "Swimming at Lake Tahoe", desc: "A stunning, secluded stretch just south of Incline Village along the East Shore Trail. Incredible crystal clear waters and deep swimming holes.", tip: "Accessible via the paved bike/walking trail. No immediate parking next to the sand." }
+        ];
+
+        const shapes = new Set(["circle", "arch", "blob", "oval", "pebble", "leaf"]);
+
+        function filterList(data, query) {
+          const search = query.search.trim().toLowerCase();
+          return data.filter((beach) => {
+            const matchesSearch = beach.name.toLowerCase().includes(search) || beach.desc.toLowerCase().includes(search);
+            const matchesRegion = query.region === "all" || beach.region === query.region;
+            const matchesLeash = query.leash === "all" || beach.leash === query.leash;
+            return matchesSearch && matchesRegion && matchesLeash;
+          });
+        }
+
+        function escapeHtml(value) {
+          return String(value)
+            .replace(/&/g, "&amp;")
+            .replace(/</g, "&lt;")
+            .replace(/>/g, "&gt;")
+            .replace(/"/g, "&quot;");
+        }
+
+        function safePosition(position) {
+          return /^(center|left|right)(\s+(center|top|bottom|\d{1,3}%))?$/.test(position) ? position : "center";
+        }
+
+        function displayBeaches(beaches) {
+          const grid = document.getElementById("beachGrid");
+          if (!beaches.length) {
+            grid.innerHTML = '<p class="empty">No dog-friendly beaches match your filters. Try adjusting your options!</p>';
+            return;
+          }
+          grid.innerHTML = beaches.map((beach) => {
+            const shape = shapes.has(beach.shape) ? beach.shape : "circle";
+            const off = beach.leash === "Off-Leash Allowed";
+            return `<article class="tdb-card">
+              <div class="tdb-card-photo"><div class="shape shape-${shape}"><img src="${escapeHtml(beach.img)}" alt="${escapeHtml(beach.alt)}" style="object-position:${safePosition(beach.pos)}" /></div></div>
+              <div class="tdb-card-body">
+                <div class="tdb-pills"><span class="pill">${escapeHtml(beach.region)}</span><span class="pill ${off ? "off" : "on"}">${escapeHtml(beach.leash)}</span></div>
+                <h3>${escapeHtml(beach.name)}</h3>
+                <p class="terrain"><strong>Terrain:</strong> ${escapeHtml(beach.terrain)}</p>
+                <p class="desc">${escapeHtml(beach.desc)}</p>
+              </div>
+              <p class="tip"><strong>Local Tip:</strong> ${escapeHtml(beach.tip)}</p>
+            </article>`;
+          }).join("");
+        }
+
+        function applyFilters() {
+          displayBeaches(filterList(beachData, {
+            search: document.getElementById("searchBar").value,
+            region: document.getElementById("regionFilter").value,
+            leash: document.getElementById("leashFilter").value
+          }));
+        }
+
+        document.getElementById("searchBar").addEventListener("input", applyFilters);
+        document.getElementById("regionFilter").addEventListener("change", applyFilters);
+        document.getElementById("leashFilter").addEventListener("change", applyFilters);
+      })();
+    </script>
+    <!--/WP-->
+  </main>
+</body>
+</html>
